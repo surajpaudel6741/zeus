@@ -1,0 +1,41 @@
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(231, 253, 231);
+    width: 100%;
+    overflow-x: hidden;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+    .icons{
+        margin: 5px;
+        font-size: 20px;
+        color: white
+    }
+    
+
+    /* ==================================HOVER================================ */
+    #fb:hover{
+        color: #4267B2;
+        transition: 1s;
+    }
+    #insta:hover{
+        color: orange;
+        transition: 1s;
+    }
+    #twit:hover{
+        color: rgb(0, 191, 255);
+        transition: 1s;
+        
+    }
+    #mail:hover{
+        color: red;
+        transition: 1s;
+    }
+    /* ================================HOVER_DONE==================================== */
+    

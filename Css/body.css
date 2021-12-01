@@ -1,0 +1,89 @@
+#companyMotto{
+    height: auto ;
+    width: 100%;
+    position: relative; 
+}
+#imgMotto{
+    height: auto ;
+    
+    min-width: 366px;
+    width: 100%;
+    opacity: 0.7;
+}
+#nameMotto{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    /* min-width: 648px; */
+    margin-top: 30%;
+    text-align: center;
+    color: white;
+}
+#nameMotto > h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-shadow: -1px 1px black;
+}
+#nameMotto > p{
+    font-family: sans-serif;
+    font-weight: 600;
+    text-shadow: -1px 1px black;
+}
+@media screen and (max-width: 680px) {
+    #nameMotto > h1 {
+      font-size: 30px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    #nameMotto{
+      margin-top: 10%;
+    }
+  }
+/* ===============================================Projects======================================================== */
+#projectContainer{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.projects{
+    position: relative;
+    width: 250px;
+    height: 290px;
+    background-color: #025342;
+    box-shadow: 2px 1px 10px black;
+    border-radius: 20px;
+    margin: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: 1s;
+}
+#project1:hover{
+    height: 350px;
+    transition: 0.5s;
+}
+.activeStatus{
+    height: 15px;
+    width: 15px;
+    border: 3px solid grey;
+    margin-top: 8px;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    right: 5px;
+    top:0;
+}
+.activep1{
+    background-color: rgb(0, 207, 0);
+}
+.nonactive{
+    background-color: red;
+}
+.projectimg{
+    height: 150px;
+    width: 250px;
+    border-bottom: 2px solid #1C5433;
+}

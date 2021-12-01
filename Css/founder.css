@@ -1,0 +1,174 @@
+
+.founder2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    min-width: 360px;
+    
+}
+.limage{
+    height: 25vh;
+    width: 25vh;
+    border-radius: 50%;
+    border: 5px solid rgb(231, 253, 231);
+}
+.leftImage{
+    height: 10vh;
+    width: 30vw;
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    left: 15%;
+    z-index: 8;
+}
+.Lfounderdetail{
+    height: 30vh;
+    width: 90%;
+    position: absolute;
+    right:0;
+    
+    top:20px;
+    text-align: center;
+    background-color: #00524E;
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
+}
+.Ldetails{
+    position: absolute;
+    padding-top: 40px;
+}
+.icons{
+    margin-left: 10px;
+    font-size: 32px;
+
+}
+.Ldetails>h1{
+    font-size: 56px;
+    font-family: sans-serif;
+    color: rgb(231, 253, 231);
+}
+
+
+
+/* ========================================== */
+
+.founder1{
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    min-width: 360px;
+    
+}
+.rimage{
+    height: 25vh;
+    width: 25vh;
+    border-radius: 50%;
+    border: 5px solid rgb(231, 253, 231);
+}
+.rightImage{
+    height: 10vh;
+    width: 30vw;
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    left: 73%;
+    z-index: 8;
+}
+.Rfounderdetail{
+    height: 30vh;
+    width: 90%;
+    position: absolute;
+    left:0;
+    top:25px;
+    text-align: center;
+    background-color: #00524E;
+    clip-path: polygon(0 0, 80% 0, 100% 100%, 0 100%);
+}
+.Rdetails{
+    position: absolute;
+    padding-top: 40px;
+    left: 20%;
+}
+.Rdetails>h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: rgb(231, 253, 231);
+}
+@media only screen and (max-width: 760px) {
+    .rightImage{
+        left: 66%;
+    }
+    .Lfounderdetail{
+        clip-path: polygon(30% 0, 100% 0, 100% 100%, 0 100%);
+    }
+    .Rfounderdetail{
+        clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
+    }
+    .Ldetails{
+        position: absolute;
+        padding-top: 75px;
+    }
+    .Rdetails{
+        position: absolute;
+        padding-top: 75px;
+    }
+    .icons{
+        margin-left: 10px;
+        font-size: 40px;
+    }
+    .Ldetails>h1{
+        font-size: 30px;
+        font-family: sans-serif;
+    }
+    .Rdetails>h1{
+        font-size: 30px;
+        font-family: sans-serif;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .founder1 .founder2{
+        max-width: 360px;
+    }
+    .leftImage{
+        height: 5vh;
+        width: 5vw;
+        left: 0;
+        /* right: 0; */
+    }
+    .rightImage{
+        height: 5vh;
+        width: 5vw;
+        left: 53%;
+    }
+    .Lfounderdetail{
+        clip-path: polygon(30% 0, 100% 0, 100% 100%, 0 100%);
+    }
+    .Rfounderdetail{
+        clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
+    }
+    .Ldetails{
+        position: absolute;
+        padding-top: 75px;
+    }
+    .Rdetails{
+        position: absolute;
+        padding-top: 75px;
+        left: 20px;
+    }
+    .icons{
+        margin-left: 10px;
+        font-size:20px;
+    }
+    .Ldetails>h1{
+        font-size: 20px;
+        font-family: sans-serif;
+        margin-bottom: 20px;
+    }
+    .Rdetails>h1{
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+}

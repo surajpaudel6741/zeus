@@ -1,0 +1,68 @@
+/* Top bar */
+
+#topComAndLogo{
+    background-color: #1c5433;
+    /* background-image: linear-gradient(to bottom right,darkgreen, rgb(1, 179, 1)); */
+    /* text-align: center; */
+    font-family: cursive;
+    color: white;
+    position: relative;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    height: max-content;
+    text-align: center;
+    min-width: 366px;
+}
+#comName{
+    padding-bottom: 6px;
+    display: inline-block;
+    position: relative;
+    top: -40px;
+    text-shadow: -2px 2px black;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+/* NAVIGATION BAR */
+nav{
+    position: sticky;
+        position: -webkit-sticky;
+        top:0;
+        z-index: 10;
+}
+#navigation{
+        background-color:#1c5433 ;
+        font-size: 24px;
+        min-width: 366px;
+        text-align: right;
+        list-style: none;
+        box-shadow: 0 8px 10px -6px black;
+}
+.navitems{
+        display: inline-block;
+        margin: 5px 15px;
+        margin-bottom: 10px;
+        font-family: sans-serif;
+}
+.navElements{
+    margin: 0 10px;
+
+}
+.navlink{
+    text-decoration: none;
+    color: white;
+
+}
+.navlink:hover{
+    color: rgb(0, 255, 170);
+    text-shadow: -2px 2px 6px black;
+    transition: 1.5s;
+}
+
+@media only screen and (max-width: 683px) {
+    .navitems{
+      display: inline-flex;
+      flex-direction: row;
+    }
+  }
